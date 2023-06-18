@@ -1,0 +1,31 @@
+#hello:hover {
+  border: 1px solid #cecbcb;
+}
+
+.btn {
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+.btn2 {
+  border: none;
+  display: flex;
+  font-size: 14px;
+  background: white;
+  gap: 5px;
+  align-items: center;
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  justify-content: center;
+ 
+}
+
+
+@media only screen and (max-width: 833px) {
+  #filter {
+    display: none;
+  }
+}
